@@ -1,0 +1,28 @@
+.button {
+  min-width: 98px;
+  height: 32px;
+
+  color: currentColor;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  border: none;
+  border-radius: 30px;
+  background-color: #bbf330;
+
+  cursor: pointer;
+}
+
+.section-title {
+  margin-bottom: 20px;
+
+  font-size: 42px;
+  line-height: 1.2;
+
+  color: #2c2c2c;
+}
+
+.section-subtitle {
+  margin-bottom: 40px;
+}
