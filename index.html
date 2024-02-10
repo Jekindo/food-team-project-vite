@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/food-team-project-vite/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/food-team-project-vite/assets/index-45049715.css">
+    <link rel="stylesheet" href="/food-team-project-vite/assets/index-df717d0d.css">
   </head>
   <body>
     <!-- Header Vladislav Sh-->
@@ -60,7 +60,9 @@
         a hassle-free and delicious meal from the comfort of your own home.
       </p>
 
-      <button class="button-hero button" type="button">Order Now</button>
+      <button class="button-hero button" type="button" data-open-modal>
+        Order Now
+      </button>
     </div>
     <div class="img-hero-wrap">
       <img
@@ -209,7 +211,55 @@
 
     
 
-    
+    <div class="backdrop is-hidden" data-backdrop>
+  <div class="modal">
+    <button class="modal-close-button" type="button" data-close-modal>
+      <svg class="icon">
+        <use href="/food-team-project-vite/assets/svg-sprite-5ad7ebb8.svg#cross"></use>
+      </svg>
+    </button>
+
+    <form class="modal-form">
+      <b class="heading">Order Form</b>
+
+      <label class="field">
+        <span class="label">Name</span>
+        <input
+          class="input"
+          type="text"
+          name="user-name"
+          placeholder="Your name"
+          required
+        />
+      </label>
+
+      <label class="field">
+        <span class="label">Phone number</span>
+        <input
+          class="input"
+          type="tel"
+          name="user-phone"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          required
+        />
+      </label>
+
+      <label class="field">
+        <span class="label">E-mail</span>
+        <input
+          class="input"
+          type="email"
+          name="user-email"
+          placeholder="example@gmail.com"
+          required
+        />
+      </label>
+
+      <button class="button modal-button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
 
     
   </body>
