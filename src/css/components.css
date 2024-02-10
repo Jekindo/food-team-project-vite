@@ -14,6 +14,10 @@
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+}
+
 .section-title {
   margin-bottom: 20px;
 
