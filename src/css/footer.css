@@ -43,25 +43,6 @@
   display: block;
 }
 
-.newsletter-form .label {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  transform: translateY(-50%);
-
-  font-size: 12px;
-  line-height: 1.5;
-
-  color: #505050;
-
-  transition: transform 250ms linear;
-}
-
-.newsletter-form .field:hover .label,
-.newsletter-form .field:focus-within .label {
-  /* transform: translateY(calc(100% - 40px)); */
-}
-
 .newsletter-form .input {
   width: 279px;
   padding: 12px;
