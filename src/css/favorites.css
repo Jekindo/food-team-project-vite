@@ -26,7 +26,90 @@ height: 282px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: #fefefe;
 }
+
+.favorites-item:hover {
+    border-color:  #bbf330;
+}
+
 .favorites-item-none {
   display: none;
+}
+
+.favorites-desk {
+    display: none;
+}
+.card-img{
+    width: 223px;
+}
+
+/* ==========Tablet============== */
+
+@media only screen and (min-width: 768px) {
+    .favorites {
+        padding-top: 94px;
+        padding-bottom: 80px;
+    }
+
+    .favorites-title {
+        font-size: 42px;
+    }
+
+   .favorites-text {
+    display: none;
+  }
+
+  .favorites-desk {
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .favorites-item-none {
+    display: flex;
+  }
+
+  .favorites-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .favorites-item {
+    width: calc((100% - 32px) / 2);
+    border: 14px solid #ffe550;
+border-radius: 167px;
+height: 338px;
+  }
+  .card-img{
+    width: 268px;
+  }
+
+}
+
+
+/* ===========desktop=========== */
+
+@media only screen and (min-width: 1280px) {
+   .favorites {
+    padding-top: 120px;
+    padding-bottom: 101px;
+  }
+
+  .favorites-desk {
+    margin-bottom: 40px;
+  }
+
+  .favorites-item {
+    width: calc((100% - 64px) / 3);
+    border: 16px solid #ffe550;
+border-radius: 197px;
+height: 397px;
+  }
+
+  .card-img {
+    width: 315px;
+  }
+
 }
