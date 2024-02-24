@@ -1,0 +1,46 @@
+<section class="subscribe">
+    <div class="container subscribe-container">
+        <div class="img-wraper">
+        <picture>
+            <!-- Desktop screen -->
+          
+            <source
+              media="(min-width: 1280px)"
+              srcset="./img/subscribe/banana.png 1x, ./img/subscribe/banan-desk-2x-min.png 2x"
+              type="image/png"
+            />
+            <!-- Tablet screen -->
+          
+            <source
+              media="(min-width: 768px)"
+              srcset="./img/subscribe/banan-tab-1x-min.png 1x, ./img/subscribe/banan-tab-2x-min.png 2x"
+              type="image/png"
+            />
+            <!-- Mobile screen -->
+          
+            <source
+              media="(max-width: 767px)"
+              srcset="./img/subscribe/banan-mob-1x-min.png 1x, ./img/subscribe/banan-mob-2x-min.png 2x"
+              type="image/png"
+            />
+            <img
+              class="subscribe-img"
+              src="./img/subscribe/banana.png"
+              alt="banan"
+              width="608"
+              height="266"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="text-wraper">
+        <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+        <p class="subscribe-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim 
+            in eros elementum tristique.</p>
+        <form class="subscribe-form">
+            <label for=""><input type="email" class="subscribe-input" placeholder="Enter your email"></label>
+            <button class="subscribe-btn" type="submit">Subscribe</button>
+        </form>
+        </div>
+    </div>
+</section>
