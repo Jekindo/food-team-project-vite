@@ -1,9 +1,12 @@
 <!-- Offering Yevhenii B-->
 <section class="section about" id="about" id="">
   <div class="container about-inner">
-    <div class="about-thumb">
-      <img src="./img/apple.png" alt="Apple" width="396" />
-    </div>
+    <img
+      srcset="./img/apple.png 550w, ./img/apple@2x.png 1100w"
+      src="./img/apple.png"
+      alt="Apple"
+      sizes="(min-width: 1280px) 550px,(min-width: 768px) 357px, 280px"
+    />
 
     <div class="about-content">
       <h2 class="section-title">What’s Special About Our Offerings</h2>
@@ -14,7 +17,7 @@
       </p>
 
       <ul class="feature-list">
-        <li class="item">
+        <li class="item rocket">
           <h3 class="title">Fasest Delivery</h3>
           <p class="text">
             Our advanced logistics system and dedicated delivery partners ensure
@@ -22,7 +25,7 @@
           </p>
         </li>
 
-        <li class="item">
+        <li class="item touch">
           <h3 class="title">Easy To Order</h3>
           <p class="text">
             You can browse through a wide variety of cuisines and restaurants,
@@ -32,9 +35,13 @@
         </li>
       </ul>
 
-      <button class="about-button button secondary" type="button">
-        Order Now
-      </button>
+      <div class="buttons">
+        <button class="about-button button secondary" type="button">
+          Order Now
+        </button>
+
+        <button class="read-more-btn" type="button">Read More</button>
+      </div>
     </div>
   </div>
 </section>
